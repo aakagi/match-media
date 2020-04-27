@@ -1,6 +1,6 @@
 import { Subscription } from "@unimodules/core";
 import mediaQuery from "css-mediaquery";
-import { ScreenOrientation } from "expo";
+import * as ScreenOrientation from 'expo-screen-orientation';
 import { Dimensions } from "react-native";
 
 type Listener = (context: MediaQuery) => any;
